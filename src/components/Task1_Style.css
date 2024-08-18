@@ -1,0 +1,30 @@
+.info_card {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    box-sizing: border-box;
+    margin: auto 0;
+}
+
+.info_card_text {
+    display: inline-block;
+}
+
+.info_card_photo {
+    margin: auto 0;
+
+
+}
+
+.info_card_photo img {
+    width: auto;
+    margin: 0;
+}
+
+.bio pre {
+    text-align: justify;
+    font-size: 1.4em;
+    word-wrap: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: pre-wrap;
+}
