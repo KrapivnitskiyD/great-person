@@ -73,5 +73,5 @@ export function GreatPerson() {
                 <InfoBio></InfoBio>
             </div>
         </div>
-    )
-};
+    );
+}
