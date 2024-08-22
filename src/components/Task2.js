@@ -16,8 +16,30 @@ function ClubInfo() {
         date: '29.11.1899',
         emblem: "FC_Barcelona.png"
     };
+
+    const styleSet1 = {
+        backgroundColor: '#FFD700',
+        color: '#000080',
+        fontFamily: 'Arial, sans-serif'
+    };
+
+    const styleSet2 = {
+        backgroundColor: '#87CEFA',
+        color: '#2F4F4F',
+        fontFamily: 'Georgia, serif'
+    };
+
+    const styleSet3 = {
+        backgroundColor: '#FFB6C1',
+        color: '#8B0000',
+        fontFamily: '"Comic Sans MS", cursive, sans-serif'
+    };
+
+    const styleArray = [styleSet1, styleSet2, styleSet3];
+
+    const randomStyle = styleArray[Math.floor(Math.random() * styleArray.length)];
     return (
-        <div className="club_info">
+        <div className="club_info" style={randomStyle}>
             <h1>{info.teamName}</h1>
             <div className="img">
                 <img src={info.emblem} alt={info.emblem} />
