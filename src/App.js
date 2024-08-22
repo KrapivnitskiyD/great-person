@@ -7,8 +7,8 @@ import './App.css';
 function App() {
     return (
         <div className='App'>
-            <FootballClub></FootballClub>
-            {/* <GreatPerson></GreatPerson> */}
+            <GreatPerson></GreatPerson>
+            {/* <FootballClub></FootballClub> */}
         </div >
     );
 }
